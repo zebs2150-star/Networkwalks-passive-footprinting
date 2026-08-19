@@ -188,8 +188,8 @@ The reconnaissance activity was performed against the internship-scoped target. 
 │   └── task2-all-redacted.txt
 ├── screenshots/
 │   ├── 01-theharvester-help-and-usage.png
-│   ├── 02-task1-baidu-execution.png
-│   ├── 03-task1-baidu-output-saved.png
+│   ├── 02-task1-hassan-execution.png
+│   ├── 03-task1-hassan-output-saved.png
 │   ├── 04-task1-output-file-verification.png
 │   ├── 05-task1-saved-output-nano.png
 │   ├── 06-task2-all-sources-execution.png
