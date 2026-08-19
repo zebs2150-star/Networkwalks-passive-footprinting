@@ -187,11 +187,11 @@ The reconnaissance activity was performed against the internship-scoped target. 
 │   ├── task1-baidu.txt
 │   └── task2-all-redacted.txt
 ├── screenshots/
-│   ├── 01-theharvester-help-and-usage.png
-│   ├── 02-task1-hassan-execution.png
-│   ├── 03-task1-hassan-output-saved.png
-│   ├── 04-task1-output-file-verification.png
-│   ├── 05-task1-saved-output-nano.png
+│   ├── 01-IMG_20260819_161923.jpg
+│   ├── 02-IMG_20260819_162010.jpg
+│   ├── 03-IMG_20260819_162047.jpg
+│   ├── 04-IMG_20260819_161950.jpg
+│   ├── 05-IMG_20260819_162029.jpg
 │   ├── 06-task2-all-sources-execution.png
 │   ├── 07-task2-all-sources-results.png
 │   ├── 08-task2-output-file-verification.png
