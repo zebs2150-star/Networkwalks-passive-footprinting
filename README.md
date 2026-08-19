@@ -52,19 +52,18 @@ The main parameters used during the project were:
 - `-l` — result limit
 - `-b` — data source
 
-![theHarvester Help and Usage](screenshots/01-theharvester-help-and-usage.png)
+![theHarvester Help and Usage]
 
 ---
 
-### 2. Task 1 — Baidu Footprinting
+### 2. Task 1 — Footprinting
 
-The first task queried **Baidu** with a result limit of 1000:
+The first task queries with a result limit of 1000:
 
 ```bash
 theHarvester -d networkwalks.com -l 1000 -b baidu
 ```
 
-![Task 1 Baidu Execution](screenshots/02-task1-baidu-execution.png)
 
 **Result:** No IP addresses, email addresses, people or hosts were returned.
 
@@ -73,12 +72,12 @@ A search returning no findings does not necessarily indicate a failed command. O
 The command output was preserved using:
 
 ```bash
-theHarvester -d networkwalks.com -l 1000 -b baidu | tee task1-baidu.txt
+theHarvester -d networkwalks.com -l 1000 -b  | tee task1-hassan.txt
 ```
 
 `tee` allowed the output to remain visible in the terminal while simultaneously writing it to a file.
 
-[View Task 1 evidence](evidence/task1-baidu.txt)
+[All the evidence in screenshot)
 
 ---
 
@@ -90,7 +89,7 @@ The second task queried all supported sources with a result limit of 50:
 theHarvester -d networkwalks.com -l 50 -b all
 ```
 
-![Task 2 Multi-Source Execution](screenshots/06-task2-all-sources-execution.png)
+![Task 2 Multi-Source Execution](all the evidence in screenshot)
 
 Several sources required API credentials that were not configured in the local installation. theHarvester reported those sources as unavailable while continuing to query accessible sources.
 
@@ -104,7 +103,7 @@ The completed run returned:
 - No people
 - No LinkedIn users
 
-![Task 2 Results](screenshots/07-task2-all-sources-results.png)
+![Task 2 Results](all the evidences in screenshot)
 
 **Key observation:** Multi-source enumeration produced substantially more information than the single-source Baidu query, even though several API-dependent sources were unavailable.
 
@@ -130,10 +129,8 @@ For the public repository:
 - Summary counts were retained
 - Original unredacted findings were not published
 
-[View sanitised Task 2 evidence](evidence/task2-all-redacted.txt)
-
-Additional screenshots documenting execution, file verification and saved output are available in the [`screenshots/`](screenshots/) directory.
-
+[
+Additional screenshots documenting execution, file verification and saved output are available in the 
 ## Linux Output Redirection and Pipes
 
 I used Linux output redirection and piping while preserving reconnaissance evidence:
@@ -204,8 +201,8 @@ The reconnaissance activity was performed against the internship-scoped target. 
 
 ## Author
 
-**Prince Manu Gyebi**  
+Shahzeb Hassan 
 Cybersecurity Intern — Batch B082  
 NETWORKWALKS
 
-LinkedIn: [Prince Manu Gyebi](https://www.linkedin.com/in/princemanugyebi)
+
